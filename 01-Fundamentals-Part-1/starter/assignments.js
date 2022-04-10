@@ -1,12 +1,12 @@
-/*
 // Values and Variables:
 // ===============================
 
 const country = "Russia",
 	continent = "Europe";
 
-let population = 1400000;
-population = 1500000;
+let population = 2345678;
+population = 8000000;
+
 console.log(country, continent, population);
 
 // Data Types:
@@ -39,19 +39,18 @@ let description =
 	" people speak " +
 	language;
 
-alert(halfPopulation);
+console.log(halfPopulation);
 console.log(population++);
 console.log(description);
 
 if (population > 6000000) {
-	console.log("Population is greater than Finland");
+	alert("Population is greater than Finland");
 } else {
-	console.log("Population is less than Finland");
+	alert("Population is less than Finland");
 }
 
 if (population > 33000000) {
-	console.log("Population is greater than Average");
+	alert("Population is greater than Average");
 } else {
-	console.log("Population is less than Average");
+	alert("Population is less than Average");
 }
-*/
