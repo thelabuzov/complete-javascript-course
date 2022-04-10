@@ -25,4 +25,33 @@ console.log(typeof language);
 
 language = "Russian";
 console.log(typeof language);
+
+// Basic Operators:
+// ===============================
+
+let halfPopulation = population / 2;
+let description =
+	country +
+	" is in " +
+	continent +
+	", and its " +
+	population +
+	" people speak " +
+	language;
+
+alert(halfPopulation);
+console.log(population++);
+console.log(description);
+
+if (population > 6000000) {
+	console.log("Population is greater than Finland");
+} else {
+	console.log("Population is less than Finland");
+}
+
+if (population > 33000000) {
+	console.log("Population is greater than Average");
+} else {
+	console.log("Population is less than Average");
+}
 */
