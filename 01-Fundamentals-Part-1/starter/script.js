@@ -42,7 +42,7 @@ if (movieReview === undefined) {
 
 let audio = document.createElement("audio"),
 	volume = document.getElementById("volume"),
-	backgroun = document.getElementsByClassName("background");
+	background = document.getElementsByClassName("background");
 
 document.onkeydown = function (event) {
 	switch (event.keyCode) {
@@ -56,4 +56,14 @@ document.onkeydown = function (event) {
 			break;
 	}
 };
+
+// Basic Operators:
+// ===============================
+
+let math = AGE + 7 ** 3;
+console.log("20^3 = " + math);
+math = math % 2;
+console.log("% = " + math);
+
+console.log((a = 27) - (b = 11) - a++ - (b += a));
 */

@@ -20,7 +20,7 @@ console.log(typeof population);
 console.log(typeof country);
 console.log(typeof language);
 
-// let, const and var:
+// Let, Const and Var:
 // ===============================
 
 language = "Russian";
